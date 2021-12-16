@@ -1,0 +1,15 @@
+{
+    "ENpron.ALPHABET|block": "字母",
+    "ENpron.WORD|block": "单词",
+    "SoundType.MALE1|block": "男声1",
+    "SoundType.MALE2|block": "男声2",
+    "SoundType.FEMALE1|block": "女声1",
+    "SoundType.FEMALE2|block": "女声2",
+    "SoundType.FEMALE3|block": "女声3",
+    "SoundType.DONALDDUCK|block": "唐老鸭",
+    "SpeechSynthesis.begin|block": "语音合成模块 I2C模式 初始化",
+    "SpeechSynthesis.speak|block": "合成语音 %data",
+    "SpeechSynthesis.setPara|block": "设置 音量%music 语速%speak 音调%tone 发音人%pronounce",
+    "SpeechSynthesis.setPronunciation|block": "设置单词发音方式 %pron"
+
+}

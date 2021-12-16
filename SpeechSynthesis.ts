@@ -102,12 +102,8 @@ namespace SpeechSynthesis {
 
     let lanChange = false;
     let _isFlash = false;
-    // //% block
-    // export function begin(n: number, s: string, e: MyEnum): void {
-    //     // Add code here
-    // }
 
-    //% block="语音合成模块 I2C模式 初始化" 
+    //% block="speech synthesis module I2C mode init" 
     //% weight=40
     export function begin(): void {
         // Add code here
@@ -123,7 +119,7 @@ namespace SpeechSynthesis {
     }
 
 
-    //% block="合成语音 %data"
+    //% block="speech synthesis %data"
     //% weight=30
     export function speak(data: string): void {
 
@@ -188,7 +184,7 @@ namespace SpeechSynthesis {
         }
     }
 
-    //% block="设置 音量%music 语速%speak 音调%tone 发音人%pronounce"
+    //% block="set volume %music speed %speak tone %tone speaker %pronounce"
     //% music.min=0 music.max=10 music.defl=8
     //% speak.min=0 speak.max=10 speak.defl=5
     //% tone.min=0 tone.max=10 tone.defl=5
@@ -200,7 +196,7 @@ namespace SpeechSynthesis {
         setTone(tone);
     }
 
-    //% block="设置单词发音方式 %pron"
+    //% block="set English pronounce mode %pron"
     //% weight=10
     export function setPronunciation(pron: ENpron): void {
         setEnglishPron(pron);

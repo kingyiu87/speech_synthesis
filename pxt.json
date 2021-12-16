@@ -11,7 +11,8 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "SpeechSynthesis.ts"
+        "SpeechSynthesis.ts",
+        "_locales/zh-cn/SpeechSynthesis-strings.json"
     ],
     "testFiles": [
         "test.ts"
