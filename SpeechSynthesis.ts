@@ -1,22 +1,22 @@
 enum ENpron {
-    //% block="字母"
+    //% block="ALPHABET"
     ALPHABET,
-    //% block="单词"
+    //% block="WORD"
     WORD
 }
 
 enum SoundType {
-    //% block="男声1"
+    //% block="MALE1"
     MALE1,
-    //% block="男声2"
+    //% block="MALE2"
     MALE2,
-    //% block="女声1"
+    //% block="FEMALE1"
     FEMALE1,
-    //% block="女声2"
+    //% block="FEMALE2"
     FEMALE2,
-    //% block="女声3"
+    //% block="FEMALE3"
     FEMALE3,
-    //% block="唐老鸭"
+    //% block="DONALDDUCK"
     DONALDDUCK
 }
 
