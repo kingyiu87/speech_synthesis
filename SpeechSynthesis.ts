@@ -118,7 +118,7 @@ namespace SpeechSynthesis {
         //setEnglishPron(ENpron.WORD);
         let check_start = 0x21;
         sendCommand1([check_start], 1);
-        
+        //if (readACK() == 0x4f) break;
     }
 
 
