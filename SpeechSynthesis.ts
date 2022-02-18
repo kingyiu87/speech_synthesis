@@ -116,8 +116,8 @@ namespace SpeechSynthesis {
         //setTone(5);
         //setSoundType(SoundType.FEMALE1);
         //setEnglishPron(ENpron.WORD);
-        let check_start = 0x21;
-        sendCommand1([check_start], 1);
+        //let check_start = 0x21;
+        //sendCommand1([check_start], 1);
         //if (readACK() == 0x4f) break;
     }
 
