@@ -110,12 +110,15 @@ namespace SpeechSynthesis {
         let init = 0xAA;
         sendCommand1([init], 1);
         basic.pause(50);
-        speakElish("[n1]");
-        setVolume(5);
-        setSpeed(5);
-        setTone(5);
-        setSoundType(SoundType.FEMALE1);
-        setEnglishPron(ENpron.WORD);
+        //speakElish("[n1]");
+        //setVolume(5);
+        //setSpeed(5);
+        //setTone(5);
+        //setSoundType(SoundType.FEMALE1);
+        //setEnglishPron(ENpron.WORD);
+        let check_start = 0x21;
+        sendCommand1([check_start], 1);
+        
     }
 
 
